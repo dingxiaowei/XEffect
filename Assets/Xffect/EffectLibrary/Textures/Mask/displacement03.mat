@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: displacement03
+  m_Shader: {fileID: 4800000, guid: 5e1b561ee80cda847877ac01aff4ff95, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3198
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DispMap:
+        m_Texture: {fileID: 2800000, guid: 2c179e39c54ed2649a9e8c5dca95aac9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 55e6facb2bb623449942330fa9a8f00a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Acce: 0
+    - _DispScrollSpeedX: -0.4
+    - _DispScrollSpeedY: 0.4
+    - _DispWave: 0
+    - _Freq: 0
+    - _HeatForce: 0.20895521
+    - _HeatTime: 0.98507464
+    - _Intensity: 1
+    - _StrengthX: -0.7
+    - _StrengthY: 0.5
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}

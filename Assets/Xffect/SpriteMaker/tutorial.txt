@@ -1,0 +1,10 @@
+1, Drag a Xffect prefab to the scene hierarchy.
+2, Assign the Xffect object to be the SpriteMaker Component's "Effect" parameter.
+3, Play the scene and click "Preview" button.
+4, Adjust the camera and parameters to fit the output rectangle.
+5, Click "Capture", then all the textures will be outputed in ".\Output" folder.
+
+NOTE: THIS SCENE DOES NOT SUPPORT RUN IN WEBPLAYER MODE.
+
+
+Video Tutorial: http://www.youtube.com/watch?v=hZIRt2vrATE

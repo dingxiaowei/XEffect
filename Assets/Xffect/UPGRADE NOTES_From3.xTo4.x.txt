@@ -1,0 +1,27 @@
+Hi old friends,
+
+For those who upgraded from 3.x to 4.x you might encounter some errors which require you to follow the instruction below:
+
+First of all, the old examples(including the textures, materials, shaders.etc) are reorganized, so please make a backup before updating.
+
+After you imported the new package, then click the menu (Window/Xffect/Patch/Ver4.0.0/Patch Current Project) and wait the patching progress done.
+
+It's not finished yet, there may still have some errors:( please don't be panic, just refer to the change list below to fix them:
+
+1, all components are inside Xft namespace now, you might need to add this line in your c# script: "Using Xft;".
+
+2, all shaders are reorganized and improved, the correspondence between old shaders and new shaders is:
+xf_heat_distortion -> xft_displacement_screen
+xft_distort_additive -> xft_displacement_additive
+xft_mask -> xft_mask_additive
+you can refer to ShaderManual.pdf to learn the new shaders.
+
+3, the 'uv_stretch' option of RibbonTail and BillboardSelf is replaced with 'uv direction'.
+
+4, the line emitter is redesigned, if you are using line emitter please re-fill the parameters.
+
+5, radial blur shader is changed, please reset all your camera glow event.
+
+6, IMPORTANT, if you are using the old example prefabs and they happened to be not included in Xffect 4.0, please transfer them from Xffect 3.x to Xffect 4.x by yourself, and then follow the instructions above to update it:)
+
+At last, Thanks for your patient and support, I'll try to make the updating progress automated in the future:)
